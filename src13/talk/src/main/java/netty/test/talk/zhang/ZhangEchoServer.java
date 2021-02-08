@@ -8,11 +8,7 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import netty.test.talke.zhang.handlers.ZhangeInitHandler;
 
-/**
- * @author XinLiu
- * @version 1.0
- * <p> xinliucl@isoftstone.com </p >
- */
+
 public class ZhangEchoServer {
     private final int port;
 

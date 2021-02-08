@@ -6,11 +6,7 @@ import io.netty.handler.codec.MessageToByteEncoder;
 
 import java.nio.charset.StandardCharsets;
 
-/**
- * @author XinLiu
- * @version 1.0
- * <p> xinliucl@isoftstone.com </p >
- */
+
 public class MsgEncoder extends MessageToByteEncoder<String> {
     @Override
     protected void encode(ChannelHandlerContext channelHandlerContext, String s, ByteBuf byteBuf) throws Exception {

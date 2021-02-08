@@ -7,11 +7,7 @@ import org.apache.logging.log4j.util.Strings;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author XinLiu
- * @version 1.0
- * <p> xinliucl@isoftstone.com </p >
- */
+
 public class LiMsgHandler extends SimpleChannelInboundHandler<String> {
     private static Map<String, String> msgs;
 

@@ -9,11 +9,7 @@ import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * @author XinLiu
- * @version 1.0
- * <p> xinliucl@isoftstone.com </p >
- */
+
 public class ZhangeMsgHandler extends SimpleChannelInboundHandler<String> {
 
     private static final int limit = 100 * 10000;

@@ -9,11 +9,7 @@ import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
 import netty.test.talke.li.handler.LiInitHandler;
 
-/**
- * @author XinLiu
- * @version 1.0
- * <p> xinliucl@isoftstone.com </p >
- */
+
 public class LiEchoClient {
 
     private static final String address = "127.0.0.1";
